@@ -17,14 +17,13 @@ The project involves analyzing cab locations and pick-up points in Albuquerque, 
 - 🔍 Filter data with a list comprehension to determine unavailable cabs.
 - 📊 Visualize the polygons and cab locations on static and interactive maps.
 
-## 📂 Repository Structure
-
-
 
 ### Defined Polygons and Cab Locations:
+Using Folium to create an interactive map that allows users to interact with the map and explore the cab locations and regions.
 ![static_map_with_compass](https://github.com/user-attachments/assets/b1bd4691-72f3-4ed0-847b-4af0634231d6)
 
 ### Interactive Map:
+Using Matplotlib to create a static map showing the polygons and cab locations.
 ![Interactive Map of Cab Locations and Polygons](https://github.com/user-attachments/assets/fdd16655-1581-460d-aecf-0b8e4c108739)
 
 
@@ -102,8 +101,9 @@ coords_poly2 = [
 poly1 = Polygon(coords_poly1)
 poly2 = Polygon(coords_poly2)
 ```
-**Distance Calculation**
-We calculate the distance between cab locations and the pick-up point, considering polygon boundaries.
+**Distance Calculation**:
+We calculate the distance between cab locations and the pick-up point, considering polygon boundaries. This helps in determining which cab is closest to the pick-up point, either directly or by calculating the shortest path around obstacles.
+
 ```python
 from shapely.geometry import Point
 from geopy.distance import distance
@@ -137,8 +137,9 @@ for cab_name, cab_location in cab_points.items():
 closest_cab = min(distances, key=distances.get)
 closest_distance = distances[closest_cab]
 ```
-**Data Filtering**
-We filter the list of orders to determine unavailable cabs using list comprehension.
+**Data Filtering**:
+We filter the list of orders to determine unavailable cabs using list comprehension. This step helps in identifying which cabs are currently occupied and thus not available for new pick-ups.
+
 ```python
 # Orders list for filtering data
 orders = [
