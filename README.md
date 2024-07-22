@@ -162,8 +162,20 @@ else:
     closest_available_cab = None
     closest_available_distance = None
 ```
+## Sample Output:
+After running the script, the console will display information about the closest cab, unavailable cabs and the closest available cab:
+
+![commandlne_output](https://github.com/user-attachments/assets/31b1b66e-df57-404e-99fa-52002883b238)
 
 
+# 📈 Summary
+The primary aim of this project is to analyze cab locations and optimize pick-up strategies in Albuquerque by utilizing geographical data. By defining specific regions and calculating distances, the project aims to improve the efficiency of cab allocation to minimize customer wait times.
 
+*Scope*: The project involves:
+
+    - Defining two or more polygons representing different regions in Albuquerque.
+    - Calculating the distance between cabs and a pick-up point, considering the boundaries of the defined polygons.
+    - Filtering out unavailable cabs based on their current status.
+    - Visualizing cab locations and regions using both static and interactive maps.
 
 
