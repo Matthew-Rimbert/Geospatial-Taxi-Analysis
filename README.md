@@ -8,7 +8,7 @@
 
 ## 📋 Overview
 
-This project, created by **Matthew Rimbert**, is part of the INFO400 - MongoDB® and Python® course at American Public University System. The project involves analyzing cab locations and pick-up points in Albuquerque, defining polygons, calculating distances, and visualizing the data on maps.
+The project involves analyzing cab locations and pick-up points in Albuquerque, defining polygons, calculating distances, and visualizing the data on maps.
 
 ## 🎯 Objectives
 
