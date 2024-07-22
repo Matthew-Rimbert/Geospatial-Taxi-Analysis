@@ -21,6 +21,7 @@ The project involves analyzing cab locations and pick-up points in Albuquerque, 
 Running the script will create:
 
 A static map picture: Saved as **static_map_with_compass.png** in the project folder.
+
 An interactive map: Saved as **Albuquerque_Cab_NOW_map.html** in the project folder.
 
 ### Defined Polygons and Cab Locations:
@@ -174,7 +175,7 @@ After running the script, the console will display information about the closest
 
 
 # 📈 Summary
-The primary aim of this project is to analyze cab locations and optimize pick-up strategies in Albuquerque by utilizing geographical data. By defining specific regions and calculating distances, the project aims to improve the efficiency of cab allocation to minimize customer wait times.
+The primary aim of this project is to analyze cab locations and optimize pick-up strategies in a city by utilizing inputted geographical data. By defining specific regions and calculating distances, the project aims to improve the efficiency of cab allocation to minimize customer wait times. On a business level, the insights and functionalities of this project can significantly benefit a cab or ride-sharing service. 
 
 *Scope*: The project involves:
 
