@@ -11,8 +11,8 @@ This project focuses on analyzing location data by defining polygons, visualizin
 
 ## 🛠️ Scope
 - Define two or more polygons using geographical coordinates
-- Visualize polygons and cab locations on static and interactive maps
-- Calculate distances between cabs and a pick-up point, considering polygon boundaries
+- Visualize polygons and taxi cab locations on static and interactive maps
+- Calculate distances between taxi cabs and a pick-up point, considering polygon boundaries
 - Identify the closest available cab based on filtering criteria
 
 ## 🚀 Installation
@@ -39,7 +39,7 @@ This project focuses on analyzing location data by defining polygons, visualizin
 
 ## 📊 Data
 The dataset used in this project includes:
-- **Cab Locations**
+- **Taxi Cab Locations**
 - **Polygon Coordinates**
 - **Pick-Up Points**
 
