@@ -46,10 +46,11 @@ The dataset used in this project includes:
 ## 🖼️ Example Outputs
 
 ### Defined Polygons and Cab Locations:
-![Static Map of Cab Locations and Polygons](images/static_map_with_compass.png)
+![static_map_with_compass](https://github.com/user-attachments/assets/b1bd4691-72f3-4ed0-847b-4af0634231d6)
 
 ### Interactive Map:
-![Interactive Map of Cab Locations and Polygons](images/interactive_map.html)
+![Interactive Map of Cab Locations and Polygons](https://github.com/user-attachments/assets/fdd16655-1581-460d-aecf-0b8e4c108739)
+
 
 ## 🧩 Code Snippets
 
