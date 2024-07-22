@@ -72,7 +72,7 @@ cab_locations = {
 ```
 ## 🔍 Key Components
 **1. Define Polygons**
-We define two polygons using geographical coordinates to represent different regions in Albuquerque.
+We define two polygons using geographical coordinates to represent different regions(THE BLUE & RED zone on our maps) in Albuquerque.
 ```python
 from shapely.geometry import Polygon
 
