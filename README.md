@@ -1,4 +1,4 @@
-# 📍 Geospatial Cab Analysis
+# 🚖 Analyzing Location Data in Albuquerque 🚖
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.2+-red.svg)
@@ -6,44 +6,20 @@
 ![Shapely](https://img.shields.io/badge/Shapely-1.7.1+-orange.svg)
 ![Geopy](https://img.shields.io/badge/Geopy-2.1.0+-purple.svg)
 
-## 📋 Purpose
-This project focuses on analyzing location data by defining polygons, visualizing the data on static and interactive maps, calculating distances, and filtering cabs based on availability. It demonstrates the use of Matplotlib and Folium for geospatial data visualization, Shapely for geometric operations, and Geopy for distance calculations.
+## 📋 Overview
 
-## 🛠️ Scope
-- Define two or more polygons using geographical coordinates
-- Visualize polygons and taxi cab locations on static and interactive maps
-- Calculate distances between taxi cabs and a pick-up point, considering polygon boundaries
-- Identify the closest available cab based on filtering criteria
+This project, created by **Matthew Rimbert**, is part of the INFO400 - MongoDB® and Python® course at American Public University System. The project involves analyzing cab locations and pick-up points in Albuquerque, defining polygons, calculating distances, and visualizing the data on maps.
 
-## 🚀 Installation
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/Matthew-Rimbert/Geospatial-Taxi-Analysis.git
-    ```
-2. **Navigate to the project directory:**
-    ```bash
-    cd Geospatial-Taxi-Analysis
-    ```
-3. **Install required Python packages:**
-    ```bash
-    pip install matplotlib folium shapely geopy
-    ```
+## 🎯 Objectives
 
-## ▶️ Usage
-1. **Run the script:**
-    ```bash
-    python geospatial_taxi_analysis.py
-    ```
+- 🗺️ Define two or more polygons and visualize them on a map.
+- 📏 Improve the pick-up algorithm by calculating distances.
+- 🔍 Filter data with a list comprehension to determine unavailable cabs.
+- 📊 Visualize the polygons and cab locations on static and interactive maps.
 
-2. **View the outputs** in the terminal and generated plots.
+## 📂 Repository Structure
 
-## 📊 Data
-The dataset used in this project includes:
-- **Taxi Cab Locations**
-- **Polygon Coordinates**
-- **Pick-Up Points**
 
-## 🖼️ Example Outputs
 
 ### Defined Polygons and Cab Locations:
 ![static_map_with_compass](https://github.com/user-attachments/assets/b1bd4691-72f3-4ed0-847b-4af0634231d6)
