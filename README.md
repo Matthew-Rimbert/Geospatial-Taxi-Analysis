@@ -19,12 +19,12 @@ The project involves analyzing cab locations and pick-up points in Albuquerque, 
 
 
 ### Defined Polygons and Cab Locations:
-Using Matplotlib to create a static map showing the polygons and cab locations.
+Using **Matplotlib** to create a static map showing the polygons and cab locations.
 
 ![static_map_with_compass](https://github.com/user-attachments/assets/b1bd4691-72f3-4ed0-847b-4af0634231d6)
 
 ### Interactive Map:
-Using Folium to create an interactive map that allows users to interact with the map and explore the cab locations and regions.
+Using **Folium** to create an interactive map that allows users to interact with the map and explore the cab locations and regions.
 
 ![Interactive Map of Cab Locations and Polygons](https://github.com/user-attachments/assets/fdd16655-1581-460d-aecf-0b8e4c108739)
 
