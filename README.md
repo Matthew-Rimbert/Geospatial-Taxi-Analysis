@@ -17,6 +17,11 @@ The project involves analyzing cab locations and pick-up points in Albuquerque, 
 - 🔍 Filter data with a list comprehension to determine unavailable cabs.
 - 📊 Visualize the polygons and cab locations on static and interactive maps.
 
+## Visualizations Generated
+Running the script will create:
+
+A static map picture: Saved as **static_map_with_compass.png** in the project folder.
+An interactive map: Saved as **Albuquerque_Cab_NOW_map.html** in the project folder.
 
 ### Defined Polygons and Cab Locations:
 Using **Matplotlib** to create a static map showing the polygons and cab locations.
@@ -173,9 +178,9 @@ The primary aim of this project is to analyze cab locations and optimize pick-up
 
 *Scope*: The project involves:
 
-    - Defining two or more polygons representing different regions in Albuquerque.
-    - Calculating the distance between cabs and a pick-up point, considering the boundaries of the defined polygons.
-    - Filtering out unavailable cabs based on their current status.
-    - Visualizing cab locations and regions using both static and interactive maps.
+- Defining two or more polygons representing different regions in Albuquerque.
+- Calculating the distance between cabs and a pick-up point, considering the boundaries of the defined polygons.
+- Filtering out unavailable cabs based on their current status.
+- Visualizing cab locations and regions using both static and interactive maps.
 
 
